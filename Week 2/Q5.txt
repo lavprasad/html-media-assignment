@@ -1,0 +1,1 @@
+The DOCTYPE Declaration in HTML is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in. It is used to help the browser render the page correctly, as it was intended by the developer. It is meant to be the very first thing in an HTML document, before the <html> tag. The <!DOCTYPE html> declaration is used in HTML5.

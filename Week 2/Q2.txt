@@ -1,0 +1,24 @@
+Comments in HTML are used to explain the code and to make it more understandable for others (or even for yourself at a later time). They does not get render by the browser and do not affect the final output of the webpage. 
+
+Comments can be very useful when you're debugging your code, or when you're working on a team and you want to leave notes for your teammates about what your code is doing.
+
+Example of how to use comments in an HTML document:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+
+    <!-- This is a comment. It will not be displayed in the browser. -->
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <!-- <p>This paragraph will not be displayed.</p> -->
+
+</body>
+</html>
+
+In this example, the text within the `<!-- -->` tags is a comment. It will not be displayed in the browser.

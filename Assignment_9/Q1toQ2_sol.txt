@@ -1,0 +1,92 @@
+Q1. Describe the main differences between the CSS Flexbox layout model and the CSS Grid layout model. When would you choose to use one over the other?
+
+Ans:-   Main Differences Between Flexbox and Grid Layout Models 
+
+1.  Layout Direction   
+   -  Flexbox : One-dimensional layout (works along a single row or column).  
+   -  Grid : Two-dimensional layout (can handle both rows and columns).
+
+2.  Content vs. Layout   
+   -  Flexbox : Designed for content alignment and distribution within a container.  
+   -  Grid : Focused on overall page or section structure with precise control over both axes.
+
+3.  Flexibility   
+   -  Flexbox : Dynamically adjusts content size and spacing based on content size.  
+   -  Grid : Static or defined grid structure, providing more rigid layout control.
+
+4.  Explicit vs. Implicit Control   
+   -  Flexbox : More content-driven; elements adapt automatically.  
+   -  Grid : Layout is defined explicitly, allowing for fixed placements.
+
+   When to Use Each 
+
+-  Flexbox :  
+  - Ideal for smaller, linear layouts (e.g., navigation bars, buttons, cards).  
+  - Use when content flow and alignment are the primary concerns.
+
+-  Grid :  
+  - Best for complex page layouts with rows and columns (e.g., full web page layouts, dashboards).  
+  - Use when precise control over both horizontal and vertical dimensions is required.
+
+
+
+
+Q2. Explain the role of the following key properties in the Flexbox layout mode
+1 justify-conten
+2 align-item/
+3 ga)
+4 flex-directio
+5 flex-wrap
+
+Ans:-  Key Properties in the Flexbox Layout Model 
+
+1.  `justify-content`   
+   -  Role : Defines the alignment of flex items along the main axis (horizontal by default).  
+   -  Values :  
+     - `flex-start`: Aligns items at the start of the main axis.  
+     - `flex-end`: Aligns items at the end.  
+     - `center`: Centers items along the main axis.  
+     - `space-between`: Distributes items with space between them.  
+     - `space-around`: Adds equal space around each item.  
+     - `space-evenly`: Distributes items with equal space between and around them.  
+
+ 
+
+2.  `align-items`   
+   -  Role : Defines how flex items are aligned along the cross axis (vertical by default).  
+   -  Values :  
+     - `stretch` (default): Stretches items to fill the container.  
+     - `flex-start`: Aligns items at the start of the cross axis.  
+     - `flex-end`: Aligns items at the end.  
+     - `center`: Centers items along the cross axis.  
+     - `baseline`: Aligns items based on their text baseline.  
+
+ 
+
+3.  `gap`   
+   -  Role : Specifies the spacing between flex items (both row and column gaps).  
+   -  Values :  
+     - A length value (e.g., `10px`, `1rem`).  
+     - Controls horizontal and vertical spacing for better layout control.  
+
+ 
+
+4.  `flex-direction`   
+   -  Role : Determines the direction of the flex container’s main axis.  
+   -  Values :  
+     - `row` (default): Items arranged from left to right.  
+     - `row-reverse`: Items arranged from right to left.  
+     - `column`: Items arranged from top to bottom.  
+     - `column-reverse`: Items arranged from bottom to top.  
+
+ 
+
+5.  `flex-wrap`   
+   -  Role : Specifies whether flex items should wrap when they run out of space.  
+   -  Values :  
+     - `nowrap` (default): Items stay in a single line, even if they overflow.  
+     - `wrap`: Items wrap to the next line when space is insufficient.  
+     - `wrap-reverse`: Items wrap in reverse order to the next line.  
+
+ 
+

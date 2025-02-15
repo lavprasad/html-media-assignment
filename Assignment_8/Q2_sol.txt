@@ -1,0 +1,26 @@
+ Relative Positioning   
+- Positioned relative to its original spot.  
+- The space it occupies remains reserved.  
+- Moved using `top`, `right`, `bottom`, `left`.  
+- Common use: Slightly adjust position without affecting layout.  
+
+Example:  
+The element moves 10px down and 20px right from its normal spot:  
+{position: relative;
+top: 10px;
+left: 20px;}
+
+
+ Absolute Positioning   
+- Positioned relative to the nearest positioned ancestor (or body if none exists).  
+- Removed from the document flow (doesn’t leave space).  
+- Common use: Precise placement, usually over other elements.  
+
+Example:  
+The element is positioned relative to its parent (10px down and 20px right):  
+{position: absolute;
+top: 10px;
+left: 20px;}
+
+
+Main Difference: Relative retains space in layout; absolute doesn’t.

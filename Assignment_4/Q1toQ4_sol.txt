@@ -1,0 +1,108 @@
+1. List out the features of HTML5.
+
+Ans:- HTML5, the fifth and current version of the HTML standard, introduced several new features and improvements over its predecessor, HTML4. Here are some of the key features of HTML5:
+
+1.  New Semantic Elements : HTML5 introduced new semantic elements that help define the structure of a web page more clearly. These include:
+   - `<header>`
+   - `<footer>`
+   - `<nav>`
+   - `<article>`
+   - `<section>`
+   - `<aside>`
+   - `<main>`
+   - `<figure>`
+   - `<figcaption>`
+   - `<time>`
+   - `<mark>`
+   - `<details>`
+   - `<summary>`
+
+2.  Audio and Video Support : HTML5 natively supports embedding audio and video content without the need for third-party plugins like Flash. This is done using the `<audio>` and `<video>` elements.
+
+3.  Canvas Element : The `<canvas>` element allows for dynamic, scriptable rendering of 2D shapes and bitmap images. It is widely used for rendering graphs, game graphics, or other visual images on the fly.
+
+4.  SVG Integration : HTML5 allows for seamless integration of Scalable Vector Graphics (SVG), which are vector-based graphics that can scale without losing quality.
+
+5.  Form Enhancements : HTML5 introduced new form elements and attributes to improve user experience and data validation:
+   - New input types: `email`, `url`, `number`, `range`, `date`, `time`, `datetime`, `datetime-local`, `month`, `week`, `color`, `search`, `tel`
+   - New attributes: `placeholder`, `required`, `autofocus`, `autocomplete`, `pattern`, `min`, `max`, `step`
+
+6.  Geolocation API : HTML5 provides a Geolocation API that allows web applications to access the geographical location of the user (with their permission).
+
+7.  Local Storage : HTML5 introduced `localStorage` and `sessionStorage` for storing data on the client side, which is more secure and can store larger amounts of data compared to cookies.
+
+8.  Web Workers : Web Workers allow running JavaScript in the background, independently of the main execution thread, which helps in performing tasks without interrupting the user interface.
+
+9.  WebSockets : HTML5 supports WebSockets, which enable full-duplex communication between the client and the server over a single, long-lived connection. This is useful for real-time applications like chat, gaming, and live updates.
+
+10.  Drag and Drop API : HTML5 provides native support for drag-and-drop interactions, making it easier to implement these features without relying on external libraries.
+
+11.  Offline Web Applications : HTML5 introduced the Application Cache (AppCache) and Service Workers, which allow web applications to work offline by caching resources locally.
+
+12.  Improved Accessibility : HTML5 includes features that improve accessibility, such as the `aria-*` attributes and better support for screen readers.
+
+13.  Microdata : HTML5 introduced microdata, which allows embedding machine-readable data in HTML documents, making it easier for search engines and other applications to understand the content.
+
+14.  New Global Attributes : HTML5 introduced new global attributes like `contenteditable`, `data-*`, `hidden`, `spellcheck`, and `translate`.
+
+15. Improved Error Handling : HTML5 has better error handling and more consistent parsing rules compared to previous versions, making it more robust and easier to work with.
+
+16. MathML Integration : HTML5 supports MathML (Mathematical Markup Language) for rendering mathematical expressions and equations.
+
+17. Cross-Document Messaging : HTML5 introduced the `postMessage` API, which allows secure communication between documents from different origins.
+
+18. Content Security Policy (CSP) : HTML5 supports CSP, which helps prevent certain types of attacks, such as Cross-Site Scripting (XSS), by controlling the resources that a web page is allowed to load.
+
+19. Responsive Images : HTML5 introduced the `srcset` and `sizes` attributes for the `<img>` element, allowing developers to provide different images for different screen sizes and resolutions.
+
+20. New Doctype and Character Encoding : HTML5 simplified the doctype declaration to `<!DOCTYPE html>` and made it easier to specify character encoding using `<meta charset="UTF-8">`.
+
+These features have made HTML5 a powerful and versatile standard for building modern web applications.
+
+
+
+
+2. What are HTML Entities? List out 5 commonly used HTML entities.
+
+Ans:- HTML Entities:
+HTML entities are special codes that represent reserved characters, symbols, or characters with specific meanings in HTML. They are used to display characters that might otherwise be interpreted as HTML code or cause rendering issues in web browsers. HTML entities are written using an ampersand (&) followed by a specific code or name, and ending with a semicolon (;).
+
+5 Commonly Used HTML Entities:
+
+&lt; - Represents the less-than symbol <.
+Example: <p>This is an example &lt;em&gt;text&lt;/em&gt;.</p>
+&gt; - Represents the greater-than symbol >.
+Example: <p>For more information, visit our website &gt; <a href="#">here</a>.</p>
+&amp; - Represents the ampersand symbol &.
+Example: <p>For further details, contact us &amp; we'll assist you.</p>
+&quot; - Represents a double quotation mark "
+Example: <p>The title of the book is "The Great Gatsby".</p>
+&copy; - Represents the copyright symbol ©.
+Example: <p>&copy; 2023 ACME Corporation. All rights reserved.</p>
+
+
+
+3. Define accessibility in the context of web development. Discuss why it's essential to create accessible websites and how it benefits different user groups
+
+Ans:- Accessibility in Web Development: Accessibility in web development refers to designing and coding websites in a way that ensures people with disabilities can perceive, understand, navigate, and interact with digital content effectively. It involves making web content inclusive and usable for everyone, regardless of their abilities.
+
+Importance of Accessible Websites:
+Inclusivity: Accessible websites ensure that everyone, including people with disabilities, can access and use online information and services.
+Legal Compliance: Many countries have laws requiring websites to be accessible, avoiding legal issues and promoting equal access.
+User Experience: Accessible design often leads to improved user experiences for everyone, including clear navigation and content structure.
+Business Growth: Accessible websites reach a wider audience, increasing engagement, loyalty, and potential customer base.
+Benefits for User Groups:
+Visual Impairments: Accessibility provides screen reader support and text alternatives, aiding blind and visually impaired users.
+Hearing Impairments: Captions and transcripts benefit those with hearing impairments by making audio content understandable.
+Motor Disabilities: Keyboard navigation and easy-to-click elements assist users with motor limitations.
+Cognitive Disabilities: Accessible design simplifies content and layout, aiding individuals with cognitive challenges.
+Elderly Users: Accessible websites accommodate age-related limitations, ensuring usability for elderly users.
+Mobile Users: Accessible design improves mobile experiences through simplified and responsive layouts/
+
+4. List any 3 ways which help us in improving the accessibility of HTML
+
+Ans:- Use Semantic HTML Elements: Using semantic HTML elements helps improve accessibility by providing meaningful structure to your content. Semantic elements like <header>, <nav>, <main>, <article>, and <footer> convey the purpose of different sections to assistive technologies, making it easier for users with disabilities to navigate and understand the content.
+
+Provide Alt Text for Images: Adding descriptive alt text to images using the alt attribute ensures that users who cannot see the images can understand their content and purpose. Screen readers read aloud the alt text, making visual content accessible to people with visual impairments. Aim to make alt text concise, informative, and relevant to the image.
+
+Use Color with Care: Color plays an important role in web design, but it should not be the only means of conveying information. Ensure that color is not the sole indicator of meaning. For example, when using error messages, pair color with text that explains the error. Additionally, maintain sufficient color contrast between text and background to enhance readability for users with low vision.
